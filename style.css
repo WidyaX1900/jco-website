@@ -27,6 +27,7 @@ nav{
 nav .logo{
     width: 20%;
 }
+
 nav .logo img{
     width: 100%;
 }
@@ -96,4 +97,65 @@ nav .hamburger .icon-3{
 .slider{
     transform: translateY(0);
     opacity: 1;
+}
+
+/* Hero Section CSS */
+.hero{
+    width: 100%;
+    background-color: rgb(238, 206, 94);
+}
+
+.hero .image{
+    width: 98%;
+    margin: 0 auto;
+}
+
+.hero .image img{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.hero .caption{
+    width: 96%;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.hero button{
+    font-size: 21px;
+    width: 12em;
+    height: 3.5em;
+    margin: 20px 0 50px 65px;
+    background-color: rgb(147, 99, 64);
+    border: none;
+    border-radius: 5px;
+    color: rgb(249, 239, 233);
+    font-weight: 500;
+    transition: .3s;
+}
+
+.hero button:hover{
+    background-color: rgb(128, 86, 56);
+    transform: scale(1.2);
+}
+
+.hero button:active{
+    background-color: rgb(156, 106, 69);
+}
+
+/* Container CSS */
+.container{
+    width: 98%;
+    margin: 0 auto 0 auto;
+}
+
+.new-coming{
+    width: 98%;
+    margin: 20px auto 0 auto;
+}
+
+.new-coming header{
+    text-align: center;
+    font-size: 30px;
 }
